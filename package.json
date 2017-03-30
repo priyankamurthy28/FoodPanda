@@ -11,7 +11,10 @@
     "react-native": "0.42.3",
     "react-native-button": "^1.8.2",
     "react-native-grid-view": "^0.4.1",
-    "react-native-navigation-bar": "^0.2.1"
+    "react-native-navbar": "^1.7.0",
+    "react-native-navigation-bar": "^0.2.1",
+    "react-native-navigator": "^0.4.2",
+    "react-native-tabbar-navigator": "^0.4.3"
   },
   "devDependencies": {
     "babel-jest": "19.0.0",

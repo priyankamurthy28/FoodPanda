@@ -23,6 +23,7 @@ class HomeScreen extends Component {
     <View style={styles.container}>
       <Image
       style={styles.backgroundImage}
+
       //style={{marginTop: 10}}
          source={require('./Image/landing-page.png')}
       />
@@ -63,7 +64,7 @@ var styles = StyleSheet.create({
     margin: 10,
   },backgroundImage: {
     flex: 1,
-    resizeMode: 'cover', // or 'stretch'
+    resizeMode: 'contain', // or 'stretch' or 'cover' or 'center'
   },
   Btncontainer: {
     height: 40,
